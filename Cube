@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b, c;
+    cout << "Enter the number you want to put: ";
+    cin >> b;
+    
+    for (a = 1; a <= b; a++)
+    {
+        c = a * a * a;
+        cout << "Number is: " << a << " and the cube of " << a << " is: " << c << endl;
+    }
+}
